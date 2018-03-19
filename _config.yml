@@ -73,10 +73,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+<<<<<<< HEAD
 theme: cactus
 theme_config:
   colorscheme: classic
   highlight: rainbow
+=======
+theme: yilia
+>>>>>>> c977289010fc9b588e3ffff70f162ad20dd18cc8
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
