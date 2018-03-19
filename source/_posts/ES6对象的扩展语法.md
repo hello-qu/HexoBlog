@@ -159,6 +159,7 @@ Object.assign(target,source);
 ```
 
 - 取值函数直接求值
+
 ```js
 const source = {
     get name(){
@@ -199,6 +200,7 @@ Object.getOwnPropertyDescriptor(obj,'name');
 > 设置／读取对象的原型属性
 
 - 设置对象的原型属性
+
 ```javascript
 var obj = {};
 
