@@ -37,3 +37,6 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+{% gist 90f532f76aa83a1e3ef559cdb2c5ca9e %}
+
