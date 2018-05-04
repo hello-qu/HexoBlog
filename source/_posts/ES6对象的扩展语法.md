@@ -1,7 +1,7 @@
 ---
 title: ES6对象的扩展语法
 date: 2017-10-25 15:19:00
-tags:  [前端,ES6]
+tags:  [Javascript,ES6]
 ---
 
 
