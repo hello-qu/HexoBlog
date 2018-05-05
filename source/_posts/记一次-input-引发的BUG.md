@@ -31,7 +31,7 @@ input.addEventListener('change',function(event){
 
 现在来看看第二个问题，移动端选择照片没有生效，后来经过排查，发现这是 `safari` 的兼容问题，也就是动态生成元素，且没有生成 `DOM` 节点时 并且是用`click` 模拟触发事件，发现 `change` 事件并不会生效 ，以下是我们刚开始的代码。
 
-``` javascript
+``` html
 	<button id="btn">点击触发input change 事件</button>
 	<script>
 		var demo = document.querySelector('#demo');
