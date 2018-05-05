@@ -110,4 +110,6 @@ deploy:
   remote: /htdocs
   port: 21
   connections: 1
-  verbose: true
+  verbose: true,
+  ignore: ["/ewh_logreport_no_delete","/logreport"]
+
