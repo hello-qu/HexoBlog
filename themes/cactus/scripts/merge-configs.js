@@ -5,4 +5,14 @@
 */
 hexo.on('generateBefore', function () {
   hexo.theme.config = Object.assign({}, hexo.theme.config, hexo.config.theme_config);
+
+});
+
+
+hexo.extend.generator.register('tags', function(locals){
+  return {
+    path: 'tags/index.html',
+    data: hexo.config.tags,
+    layout: ['tags', 'index']
+  }
 });

@@ -44,10 +44,10 @@ body
     color: $color-text
     text-decoration: none
 
-    underline(5px, $color-text)
+    // underline(5px, $color-text)
 
     &:hover
-      background-image: linear-gradient(transparent, transparent 4px, $color-link 4px, $color-link)
+      // background-image: linear-gradient(transparent, transparent 4px, $color-link 4px, $color-link)
 
   a.icon
     background: none
@@ -184,3 +184,19 @@ code
 
   .line
     height: 22px
+
+.tag-list
+  display: flex 
+  flex-direction: row
+
+  li.tag-list-item
+    list-style-type: none
+    padding: 2px 5px
+    margin: 0 4px
+    border: 1px solid rgb(165, 155, 155)
+    border-radius: 4px
+    transition all .5s
+
+    &:hover
+      background-color: rgba(233, 30, 99, 0.1)
+
