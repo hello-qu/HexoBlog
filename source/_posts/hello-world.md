@@ -37,10 +37,3 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
-
-{% runkit testRunkit %}
- function demo(){
-     console.log("hello")
- }
-{% endrunkit %}
-
